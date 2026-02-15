@@ -42,7 +42,7 @@ export default function Contact() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          access_key: 'TWÓJ-KLUCZ-WEB3FORMS-TUTAJ', // <--- PAMIĘTAJ O PODMIANIE KLUCZA
+          access_key: 'f3666b26-c328-4667-b969-267cc08a3d83',
           subject: `Nieuwe aanvraag van ${form.name} - DYM Bouw`,
           from_name: 'DYM Bouw Website',
           name: form.name,
